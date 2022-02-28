@@ -1,0 +1,123 @@
+body {
+  /*background-image: url(./donut.jpg);*/
+  background: linear-gradient(135deg, #122e40, #658da6, #122e40);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+div.page {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 80px 40px minmax(100vh, auto) 40px;
+  grid-template-areas:
+    "header header"
+    "menu menu"
+    "maincontent mainContent"
+    "footer footer";
+}
+
+div.header {
+  grid-area: header;
+  background-color: #122e40;
+  opacity: 0.8;
+  text-align: center;
+
+  font-family: "Courier New", Courier, monospace;
+  color: #c1d0d9;
+  font-size: 24px;
+  text-shadow: 4px 4px 16px rgba(214, 224, 225, 0.56);
+}
+
+div.menu {
+  grid-area: menu;
+  background-color: #658da6;
+  font-family: "Courier New", Courier, monospace;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+div.mainContent {
+  grid-area: mainContent;
+  background-color: #c1d0d9;
+  opacity: 0.9;
+  width: 800px;
+  border: 10px inset #658da6;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.footer {
+  grid-area: footer;
+  background-color: #122e40;
+  position: sticky;
+  color: #e4ebf2;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  position: sticky;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+#meny {
+  color: #e4ebf2;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 15px;
+  position: sticky;
+  z-index: 1;
+}
+
+#bunnlinje {
+}
+
+#littOm {
+  font-family: "Courier New", Courier, monospace;
+  color: #1b505e;
+  text-align: left;
+}
+
+.buttonMenu {
+  grid-area: menu;
+  background-color: #658da6;
+  font-family: "Courier New", Courier, monospace;
+  position: sticky;
+  color: #e4ebf2;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: #0a1d2b 0px;
+  box-shadow: inset -1px -9px 28px -15px #7a8eb9;
+  display: inline-block;
+  border-radius: 19px;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+:hover.buttonMenu {
+  background-color: #122e40;
+}
+
+.utdanning {
+  grid-area: mainContent;
+  background-color: #c1d0d9;
+  opacity: 0.7;
+  width: 800px;
+  border: 10px inset #658da6;
+  padding: 50px;
+  margin: 20px;
+}
+.logo {
+  color: #d4af37;
+}
