@@ -120,7 +120,7 @@ function prosjekter() {
 
     <h3 id="Prosjekter">Mine prosjekter</h3>
       <p> Her vil jeg etter hvert legge ut mine prosjekter som blir ferdige.</p><hr>
-      <h4>To- do list</h4>
+      <h4>Hoderegning</h4>
       <div>Et av de første prosjektene mine er en side der man kan øve seg på hoderegning. Denne lagde jeg da jeg gikk på modul 1. <br>
       Se link her: <a href="https://smelau.github.io/hoderegning/index.html">Link</a>
       </div><hr>
