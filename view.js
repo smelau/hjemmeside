@@ -16,10 +16,7 @@ html = `
     <div class="mainContent">
 
       <h3 id="littOM">Litt om meg</h3>
-        <p> Jeg heter Silje, er 32 år og kommer fra Larvik.<br> Etter å ha jobbet flere år som lærer i barneskolen hadde jeg lyst til å prøve noe nytt og gjøre et karriereskifte. Jeg startet derfor på Get Academy i januar 2022. Dett er en intensiv utdanning for å bli utvikler. Her har jeg til nå lært mest om html, CSS og Javascript, og skal nå sette fart på C#
-        <br>
-        <br>
-        Læringskurven er bratt og jeg syns det er veldig moro å hele tiden kunne lære meg noe nytt. 
+        <p> Jeg heter Silje, er 32 år gammel og kommer fra Larvik.<br> For tiden går jeg på Get Academy som er en intensiv utdanning for å bli IT-utvikler. 
         </p>
 </div>
 
@@ -125,6 +122,11 @@ function prosjekter() {
       <div>Et av de første prosjektene mine er en side der man kan øve seg på hoderegning. Denne lagde jeg da jeg gikk på modul 1. <br>
       Se link her: <a href="https://smelau.github.io/hoderegning/index.html">Link</a>
       </div><hr>
+      <h4>Learn English</h4>
+      <div>Dette prosjektet har jeg jobbet med på modul 2. Dette er litt på bestilling fra tidligere kolleger. Den er tilpasset ipad i formatet, så  kan se noe rar ut på PC. <br>
+      Se link her: <a href="https://smelau.github.io/learnEnglish/">Link</a>
+      </div><hr>
+      
 
 
     
