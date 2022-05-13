@@ -16,10 +16,11 @@ html = `
     <div class="mainContent">
 
       <h3 id="littOM">Litt om meg</h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quasi eaque doloribus, nulla obcaecati doloremque 
-          expedita nam ipsa maxime optio rerum suscipit aperiam ullam facere accusamus? Soluta alias architecto autem?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quasi eaque doloribus, nulla obcaecati doloremque 
-          expedita nam ipsa maxime optio rerum suscipit aperiam ullam facere accusamus? Soluta alias architecto autem?</p>
+        <p> Jeg heter Silje, er 32 år og kommer fra Larvik.<br> Etter å ha jobbet flere år som lærer i barneskolen hadde jeg lyst til å prøve noe nytt og gjøre et karriereskifte. Jeg startet derfor på Get Academy i januar 2022. Dett er en intensiv utdanning for å bli utvikler. Her har jeg til nå lært mest om html, CSS og Javascript, og skal nå sette fart på C#
+        <br>
+        <br>
+        Læringskurven er bratt og jeg syns det er veldig moro å hele tiden kunne lære meg noe nytt. 
+        </p>
 </div>
 
 <div class="footer">
